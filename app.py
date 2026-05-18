@@ -66,6 +66,9 @@ ASSISTANCE_FIELDS = [
     "Award Amount", "Total Obligated Amount",
     "Start Date", "Award Type",
     "Recipient Location State Code", "Recipient Location Country Name",
+    "Description",                    # ← ADD THIS
+    "cfda_number",                    # ← ADD THIS (assistance only)
+    "cfda_title",                     # ← ADD THIS (assistance only)
 ]
 
 CONTRACT_FIELDS = [
@@ -74,6 +77,7 @@ CONTRACT_FIELDS = [
     "Award Amount", "Total Obligated Amount",
     "Start Date", "Contract Award Type",
     "Recipient Location State Code", "Recipient Location Country Name",
+    "Description",                    # ← ADD THIS
 ]
 
 PAGE_LIMIT = 100
