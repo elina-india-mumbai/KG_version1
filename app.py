@@ -170,6 +170,9 @@ def normalize(rec, parent_agency, fy, recipient_slice, group):
         "action_date": rec.get("Start Date"),
         "award_type": rec.get("Award Type") or rec.get("Contract Award Type"),
         "award_group": group,
+        "description": rec.get("Description", ""),      # ← ADD THIS
+        "cfda_number": rec.get("cfda_number", ""),      # ← ADD THIS
+        "cfda_title": rec.get("cfda_title", ""),        # ← ADD THIS
     }
 
 
